@@ -22,6 +22,18 @@ last_name = input("Please enter your last name ")
 email = f"{year}.{first_name}.{last_name}@{school}"
 print(email)
 
+message = ("Welcome to the smartest temperature converter")
+print(message)
+print("#"*len(message))
+fahrenheit = input("Enter the current temperature in F")
+#before converting we need to validate that the user knows how to read
+if fahrenheit.isdigit() == True:
+    celsius = (int(fahrenheit) - 32)*5/9
+    print(f"This temperature is {celsius} C")
+else:
+    print("WRONG INPUT.USE DECIMAL NUMBERS".lower())
+
+
 ```
 
 
