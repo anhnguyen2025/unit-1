@@ -1,0 +1,29 @@
+# Class code
+
+```.py
+# This is a comment
+"""
+This class is about the basics of programming
+Aug 23
+"""
+# Get input from the user
+first_name = input("Please enter your first name ")
+#output
+print("Hello ", first_name)
+
+# other types of variables
+school = "uwcisak.jp" #strings
+year = 2025 #numbers
+height = 180.8 #float: decimals numbers
+is_student = True
+
+last_name = input("Please enter your last name ")
+#output
+email = f"{year}.{first_name}.{last_name}@{school}"
+print(email)
+
+```
+
+
+
+
